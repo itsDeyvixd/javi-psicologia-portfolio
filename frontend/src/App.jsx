@@ -82,7 +82,7 @@ function Home() {
               </div>
               <h3 className="text-xl font-serif font-bold mb-3 text-brand-dark">Atención a Adultos</h3>
               <p className="text-gray-700 leading-relaxed">
-                Acompañamiento especializado para adultos en la gestión de emociones, toma de decisiones y mejora de la calidad de vida.
+                Acompañamiento especializado para que puedas relacionarte de una manera distinta con tus emociones, clarificar tus valores y mejorar tu calidad de vida.
               </p>
             </article>
             
