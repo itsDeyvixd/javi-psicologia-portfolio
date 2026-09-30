@@ -1,6 +1,6 @@
 import React from 'react';
 import { BrowserRouter, Routes, Route, Link } from 'react-router-dom';
-import { Phone, Calendar, MapPin, Video, ArrowRight, ShieldCheck, HeartPulse } from 'lucide-react';
+import { Phone, Calendar, MapPin, Video, ArrowRight, ShieldCheck } from 'lucide-react';
 
 function Home() {
   return (
@@ -63,36 +63,26 @@ function Home() {
             <div className="w-24 h-1 bg-brand-green mx-auto rounded-full" aria-hidden="true"></div>
           </div>
           
-          <div className="grid md:grid-cols-3 gap-8">
-            <article className="bg-white p-8 rounded-2xl shadow-sm border border-brand-green/10 hover:shadow-md transition-shadow">
+          <div className="grid md:grid-cols-2 gap-8 max-w-5xl mx-auto">
+            <article className="bg-white p-8 md:p-10 rounded-2xl shadow-sm border border-brand-green/10 hover:shadow-md transition-shadow h-full flex flex-col">
               <div className="w-12 h-12 bg-brand-green/10 rounded-full flex items-center justify-center mb-6 text-brand-green" aria-hidden="true">
                 <ShieldCheck className="w-6 h-6" />
               </div>
               <h3 className="text-xl font-serif font-bold mb-3 text-brand-dark">Psicoterapia Basada en Evidencia</h3>
-              <p className="text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed flex-grow">
                 Intervenciones respaldadas por la ciencia, incluyendo Terapia de Aceptación y Compromiso (ACT) y Psicoterapia Analítica Funcional (FAP).
               </p>
             </article>
             
-            <article className="bg-white p-8 rounded-2xl shadow-sm border border-brand-green/10 hover:shadow-md transition-shadow">
+            <article className="bg-white p-8 md:p-10 rounded-2xl shadow-sm border border-brand-green/10 hover:shadow-md transition-shadow h-full flex flex-col">
               <div className="w-12 h-12 bg-brand-green/10 rounded-full flex items-center justify-center mb-6 text-brand-green" aria-hidden="true">
                 <svg className="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 4.354a4 4 0 110 5.292M15 21H3v-1a6 6 0 0112 0v1zm0 0h6v-1a6 6 0 00-9-5.197M13 7a4 4 0 11-8 0 4 4 0 018 0z" />
                 </svg>
               </div>
               <h3 className="text-xl font-serif font-bold mb-3 text-brand-dark">Atención a Adultos</h3>
-              <p className="text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed flex-grow">
                 Tus pensamientos y emociones no tienen que determinar cómo actúas. Te acompaño a soltar la lucha interna, hacer espacio a la incomodidad y tomar decisiones enfocadas en lo que de verdad te importa.
-              </p>
-            </article>
-            
-            <article className="bg-white p-8 rounded-2xl shadow-sm border border-brand-green/10 hover:shadow-md transition-shadow">
-              <div className="w-12 h-12 bg-brand-green/10 rounded-full flex items-center justify-center mb-6 text-brand-green" aria-hidden="true">
-                <HeartPulse className="w-6 h-6" />
-              </div>
-              <h3 className="text-xl font-serif font-bold mb-3 text-brand-dark">Trastornos Emocionales</h3>
-              <p className="text-gray-700 leading-relaxed">
-                Evaluación y tratamiento de ansiedad, depresión, estrés y otras dificultades emocionales y afectivas.
               </p>
             </article>
           </div>
