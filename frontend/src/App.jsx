@@ -175,7 +175,7 @@ function Home() {
             <div className="text-center md:text-left">
               <h2 className="text-2xl font-serif font-bold mb-2">Javier Correa</h2>
               <p className="text-brand-cream/70 mb-1">Psicólogo Clínico - UNAL</p>
-              <p className="text-brand-cream/50 text-sm">Tarjeta Profesional N° [Número]</p>
+              <p className="text-brand-cream/50 text-sm">Tarjeta Profesional N° 243231</p>
             </div>
             
             <div className="flex flex-col items-center md:items-end gap-4">
